@@ -60,9 +60,10 @@ def Main():
     #print(count)
     return count
 
-n = 1000
+n = 100000
 suma = 0
 for i in range(n):
     suma += Main()
 suma = suma / n
-    print(suma)
+
+print(suma)
